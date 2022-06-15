@@ -1,4 +1,3 @@
-# 2022-1semester-opensource-2-project
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
@@ -101,7 +100,7 @@ void insert(work* ptr, int* location) // 데이터 삽입
 
     if (*location < SIZE)
     {
-        printf(" 날짜 : "); scanf(" %s", &ptr[*location].date);
+        printf(" 날짜(일): "); scanf(" %s", &ptr[*location].date);
         printf(" 헬스유무(o/x) : "); scanf("%s", &ptr[*location].yesno);      
         printf(" 몸무게 : "); scanf(" %d", &ptr[*location].kg);
         printf(" 분할부위(A:가슴,B:하체,C:등) : "); scanf(" %s", &ptr[*location].body);
